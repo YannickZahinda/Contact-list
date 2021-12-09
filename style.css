@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 20px;
+    background-color: rgb(77, 79, 80);
+    background: radial-gradient(
+        circle,
+        rgb(60, 65, 68) 0%,
+        rgb(163, 164, 167) 50%,
+        rgb(226, 225, 224)
+    );
+    display: flex;
+    justify-content: center;
+    /* width: max-content; */
+
+}
+
+h5{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2{
+    align-self: center;
+}
+
+h5{
+    text-align: center;
+}
+
+.form_one_container{
+    width: 100%;
+    /* background-color: rgb(94, 90, 90); */
+    /* backdrop-filter: blur(10px); */
+    box-shadow: 0 0 30px rgb(80, 78, 78);
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    display: block;
+}
+
+#existing_account{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+button{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 9px;
+    margin: 0 auto;
+    width: 60%;
+    padding: 8px;
+    border-radius: 15px;
+    background: none;
+    border: none;
+}
+
+button:hover{
+    box-shadow: 0 0 25px rgb(10, 10, 10);
+}
+
+#password{
+    margin-bottom: 10px;
+}
+
+#create_button{
+    margin-top: 10px;
+}
+
+#submit_button{
+    margin-top: 30px;
+}
+
+#create{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 6px 6px;
+}
+
+.form_two_container{
+    width: 100%;
+    /* background-color: rgb(94, 90, 90); */
+    box-shadow: 0 0 30px rgb(10, 10, 10);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    display: none;
+}
+
+input{
+    padding: 9px;
+    border-radius: 15px;
+    color: rgb(204, 200, 200);
+    border: none;
+}
+
+input:focus{
+    background-color: rgb(61, 59, 59);
+    border: none;
+}
+
+.forms_container{
+    display: flex;
+}
+span {
+    margin-right: 6px;
+}
+
+.transition{
+    transition: 10s;
+}
+
+.errorMessageDisplaying {
+    color: rgb(204, 34, 34);
+    background-color: rgb(226, 225, 224);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#link-to-login:hover{
+    color: rgb(145, 131, 131);
+}
