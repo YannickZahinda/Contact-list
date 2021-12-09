@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Users/yannzah/Desktop/my contact list/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--For existing account-->
+    <div class="container">
+    <div><h1>CONTACT APP PROVIDER  <h5>provided By vieux Renard</h5></h1></div>
+    <div class="forms_container">
+        <div class="form_one_container" id="Login">
+            <form id="existing_account">
+                <h2>Log in</h2>
+                <p id="error_message_display"></p>
+                <label for="name"><span class="fa fa-user"></span> name :</label>
+                <input type="text" id="name">
+                <label for="email"><span class="fa fa-envelope"></span> email :</label>
+                <input type="text" id="email">
+                <label for="phone"><span class="fa fa-phone"></span> phone :</label>
+                <input type="tel" id="phone">
+                <label for="password"><span class="fa fa-lock"></span> password</label>
+                <input type="password" id="password">
+                <p id="link-to-signup">Create account or sign up</p>
+                <button id="submit_button">submit</button>
+            </form>
+        </div>
+        <!--For creating new account-->
+        <div class="form_two_container" id="Signup">
+            <form id="create">
+                <h2>Sign up</h2>
+                <label for="name"><span class="fa fa-user"></span>Enter your full name :</label>
+                <input type="text" id="name">
+                <label for="mail"><span class="fa fa-envelope"></span>Enter your email or electronique address</label>
+                <input type="text" id="mail">
+                <label for="phone"><span class="fa fa-phone"></span>Enter your available phone-number :</label>
+                <input type="number" id="phone">
+                <label for="password"><span class="fa fa-lock"></span>Enter a new password :</label>
+                <input type="password" id="password">
+                <label for="confirm_password"><span class="fa fa-lock"></span>Confirm your password</label>
+                <input type="password" id="confirm_password">
+                <p id="link-to-login">Back to login</p>
+                <button id="create_button">Create</button>
+    
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="./login.js"></script>
+    <script>
+        // const myLink = document.querySelector("p");
+        // const login = document.getElementById("login");
+        // const signUp = document.getElementById("signup");
+        // myLink.style.color = "red";
+    </script>
+</body>
+</html>
